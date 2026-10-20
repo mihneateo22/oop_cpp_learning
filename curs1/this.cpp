@@ -63,7 +63,7 @@ class Chain {
 
 int main() {
     Chain c;
-    c.setX(1).setY(2);  // setX returns x, then .setY(2) is called on c
+    c.setX(1).setY(2);  // setX returns c, then .setY(2) is called on c
     c.afiseaza();
     return 0;
 }
