@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// USUAL RULE : data PRIVATE, methods PUBLIC
+
 class Mediu {
     float temp; // private by default
     //same as:
