@@ -16,6 +16,7 @@ namespace second {
 }
 
 int main() {
+    // do not open more the one namespace, the compiler will stop with "refrence to 'x' is ambiguous"
     using namespace first; // from here on, x and y mean first::x and first::y
     cout << x << endl;  // first::x
     cout << second::x << endl;  // second's x, named explicitly
